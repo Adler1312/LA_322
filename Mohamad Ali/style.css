@@ -22,6 +22,10 @@ body{
     height: 30rem;
    }
 
+.tb{
+    font-size:1.2rem;
+}
+
 .navbar {
     background-color: #e5e5e5;
     height: 50px;
