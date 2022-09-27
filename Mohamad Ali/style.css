@@ -1,0 +1,320 @@
+body{
+        text-align: center;   
+        background-color: rgb(194, 194, 194);
+        margin: 0;
+        font-size: 62.5%;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+}
+
+.home{
+    padding: 1rem;
+    background-color: white;
+    display: block;
+    justify-content: center; 
+    align-items: center;
+   }
+   
+   img{
+    width: 50rem;
+    height: 30rem;
+   }
+
+.navbar {
+    background-color: #e5e5e5;
+    height: 50px;
+    
+  }
+  
+  .navbar img {
+    padding-right: 50rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    float: right;
+    margin: 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #353535;
+    display: inline-block;
+    padding-top: 15px;
+    
+  }
+  
+  nav a:hover {
+    color: #00b2b2;
+  }
+  
+  nav a:active {
+    font-weight: bold;
+  }
+  
+  
+  * {
+    font-family: Montserrat, sans-serif;
+  }
+  .grid-container{
+    display:grid;
+    grid-template-columns: 4fr 4fr ;
+    grid-gap:20px;
+   
+  }
+  .grid-element{
+    background-color:#F3CE00;
+    text-align:center;
+    padding:20px;
+  }
+
+
+
+.title{
+    color: black;
+}
+
+.picture{
+    width: 75% ;
+    height: 35rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    display: block;
+    background-image: url(https://pxhere.com/no/photo/1086556?utm_content=shareClip&utm_medium=referral&utm_source=pxhere)
+}
+h1{
+    color: black;
+}
+.image-container{
+    background-color: white;
+    padding: 1rem;
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.text-container{
+    background-color: rgb(194, 194, 194);
+    padding: 1rem;
+    color: black;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.text-first{
+    font-family: 'Open Sans', sans-serif;
+}
+.maps-container, #Geburtsort{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.maps-container-text{
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+.maps-right{
+    margin-left: 1rem;
+    width: 50%;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.btn-1{
+    width: 225px;
+    height: 50px;
+    border:none;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3b4d61;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+.btn-1:hover{
+    box-shadow: inset 225px 0 0 0 #3b4d61;
+    cursor:pointer;
+    color: #000;
+}
+.btn-2{
+    width: 225px;
+    height: 50px;
+    border:none;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3b4d61;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+.btn-2:hover{
+    box-shadow: inset 225px 0 0 0 #3b4d61;
+    cursor:pointer;
+    color: #000;
+}
+.btn-3{
+    width: 225px;
+    height: 50px;
+    border:none;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3b4d61;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+.btn-3:hover{
+    box-shadow: inset 225px 0 0 0 #3b4d61;
+    cursor:pointer;
+    color: #000;
+}
+.btn-4{
+    width: 225px;
+    height: 50px;
+    border:none;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3b4d61;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+.btn-4:hover{
+    box-shadow: inset 225px 0 0 0 #3b4d61;
+    cursor:pointer;
+    color: #000;
+}
+.btn-5{
+    width: 225px;
+    height: 50px;
+    border:none;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3b4d61;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+.btn-5:hover{
+    box-shadow: inset 225px 0 0 0 #3b4d61;
+    cursor:pointer;
+    color: #000;
+}
+.btn-6{
+    width: 225px;
+    height: 50px;
+    border:none;
+    color: white;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3b4d61;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+}
+.btn-6:hover{
+    box-shadow: inset 225px 0 0 0 #3b4d61;
+    cursor:pointer;
+    color: #000;
+}
+.maps-frame{
+    border: 0;
+    height: 350px;
+    width: 70%;
+}
+#steckbrief-container{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-weight: 600;
+}
+.text-steckbrief{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: #3b4d61;
+}
+.steckbrief{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+#zeitleiste-container{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-weight: 600;
+}
+.titel-zeitleiste{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: #3b4d61;
+}
+.text-zeitleiste{
+    background-color: rgb(194, 194, 194);
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 700;
+}
+#lebenslauf{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-weight: 600;
+}
+.titel-lebenslauf{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: #3b4d61;
+}
+.lebenslauf{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+#zitate{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-weight: 600;
+}
+.titel-zitate{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    background-color: #3b4d61;
+}
+.zitate{
+    font-size: 2rem;
+    font-weight: 500;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.legal-content{
+    padding: 1rem;
+}
+.legal-tex{
+    margin-right: 1rem;
+}
+
